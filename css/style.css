@@ -114,7 +114,8 @@ body{
 }
 
 #target_about {
-    height: 500px;
+    margin-bottom: 30px;
+    /* height: 500px; */
 }
 #target_skill {
     height: 600px;
@@ -154,7 +155,7 @@ body{
 }
 
 .myWeb{
-    height: 700px;
+    /* height: 700px; */
     display: flex;
     align-items: center;
     /* background-color: #999999; */
@@ -263,4 +264,64 @@ body{
     color: white;
     height: 100px;
     font-size: 14px;
+}
+
+
+@media (max-width: 575.98px) {
+    body{
+        font-size: 14px;
+    }
+    .sectionTitle{
+        font-size: 24px;
+    }
+    #target_about table{
+        width: 95vw;
+    }
+    #target_about table .aboutListL{
+        width: 80vw;
+    }
+    #target_about table .aboutListR{
+        width: 10vw;
+        font-size: 12px;
+    }
+    #target_skill table{
+        width: 10vw;
+    }
+    #target_skill td {
+        width: 25vw;
+        padding: 10px 5px;
+    }
+    .skillList{
+        font-size: 8px;
+        height: 16px;
+        line-height: 16px;
+        margin: 2px;
+    }
+    .skill{
+        font-size: 10px;
+        height: 18px;
+        line-height: 18px;
+        margin: 2px;
+
+    }
+    .myWeb{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .myWebL{
+        width: 90vw;
+        align-items: center;
+    }
+    .myWebInfo , .myWebSkillBox{
+        width: 90vw;
+    }
+    .BackBtn {
+        margin: 30px 0px;
+    }
+    .myWebR img{
+        max-height: 800px;
+    }
+    #mycalc .myWebR img{
+        max-height: 500px;
+    }
 }
