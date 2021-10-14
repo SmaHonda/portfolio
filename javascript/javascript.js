@@ -12,6 +12,12 @@ $('#nav_myWeb').click( function(){
     $('#target_about').css('display','none')
     $('#target_skill').css('display','none')
     $('#target_myWeb').css('display','flex')
+    $('#selectNav').css('display','flex')
+    $('#fansdessert').css('display','none')
+    $('#mycalc').css('display','none')
+    $('#fuji').css('display','none')
+    $('#blog').css('display','none')
+    $('#bloghhh').css('display','none')
 })
 
 $('#list_img_fansdessert').click(function(){
@@ -46,6 +52,14 @@ $('#list_blog').click(function(){
     $('#blog').css('display','flex')
     $('#selectNav').css('display','none')
 })
+$('#list_img_bloghhh').click(function(){
+    $('#bloghhh').css('display','flex')
+    $('#selectNav').css('display','none')
+})
+$('#list_bloghhh').click(function(){
+    $('#bloghhh').css('display','flex')
+    $('#selectNav').css('display','none')
+})
 
 $('.BackBtn').click(function(){
     $('#selectNav').css('display','flex')
@@ -53,5 +67,6 @@ $('.BackBtn').click(function(){
     $('#mycalc').css('display','none')
     $('#fuji').css('display','none')
     $('#blog').css('display','none')
+    $('#bloghhh').css('display','none')
 
 })
