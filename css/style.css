@@ -1,0 +1,266 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'cwTeXYen',cwTeXYen;
+    line-height: 30px;
+    letter-spacing: 3px;
+    font-size: 20px;
+}
+
+#navbar{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 80px;
+    width: 100vw;
+    position: fixed;
+    z-index: 10;
+    background-color: #fff;
+}
+#navbar p{
+    margin: 0px 20px;
+    text-decoration: none;
+    color: black;
+}
+
+#navbar p:hover{
+    cursor: pointer; 
+}
+
+#navbarBox{
+    height: 80px;
+    width: 100vw;
+}
+
+
+.skillList{
+    border-radius: 5px;
+    text-align: center;
+    height: 22px;
+    margin: 5px;
+    line-height: 22px;
+    padding: 0px 8px;
+    color: white;
+    background-color: #999;
+    font-size: 14px;
+
+}
+
+#selectNav{
+    flex-direction: column;
+}
+.selectNavSkillList{
+    display: flex;
+    flex-wrap: wrap ;
+    width: 40vw;
+}
+
+.skill{
+    border-radius: 5px;
+    text-align: center;
+    height: 30px;
+    margin: 5px;
+    line-height: 30px;
+    padding: 0px 10px;
+    color: white;
+    background-color: #999;
+}
+/* .html{ background-color: #A8E6CE; }
+.css{ background-color: #DCEDC2; }
+.jQuery , .javascript{ background-color: #FFD3B5; }
+.Photoshop{ background-color: #a6b3ff;} */
+.plugin{ background-color: #FF8C94; color: #fff;}
+
+
+#header{
+    width: 100vw;
+}
+#header img{
+    width: 100vw;
+}
+
+.line{
+    border-bottom: 1px solid #999999;
+}
+#news{
+    display: flex;
+    margin: 30px 0px;
+}
+
+#newsL{
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#newsR{
+    width: 70vw;
+}
+
+.sectionTitle{
+    font-size: 36px;
+    margin: 50px;
+}
+
+#target_about ,#target_skill , #target_myWeb {
+    padding: 0px 10vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#target_about {
+    height: 500px;
+}
+#target_skill {
+    height: 600px;
+}
+#target_skill , #target_myWeb{
+    display: none;
+}
+
+#target_skill td , #target_about td{ 
+    padding: 10px 30px;
+}
+
+#target_skill table{
+    text-align: center;
+    width: 80vw;
+}
+
+.myWebList{
+    height: 200px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.myWebListL{
+    width: 50vw;
+}
+.myWebListR{
+    width: 40vw;
+    margin-left: 10vw;
+}
+.myWebListRTitle{margin: 10px 0px;}
+.myWebListRTitle:hover , .myWebList img:hover{cursor: pointer; }
+
+.myWebList img{
+    height: 180px;
+}
+
+.myWeb{
+    height: 700px;
+    display: flex;
+    align-items: center;
+    /* background-color: #999999; */
+}
+
+.myWebL{
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    width: 50vw;
+}
+
+.gotoWeb{
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    font-size: 24px;
+}
+.gotoWeb a{
+    text-decoration: none;
+}
+
+.myWebInfo{
+    width: 30vw;
+}
+
+.infoTitle{
+    font-size: 28px;
+}
+.infoTxt{
+    margin-left: 30px;
+
+}
+.myWebSkillBox{
+    width: 30vw;
+
+}
+
+.myWebSkill{
+    display: flex;
+    margin-left: 30px;
+    flex-wrap: wrap;
+}
+
+.myWebR{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    
+}
+
+.myWebR img{
+    max-height: 600px;
+}
+
+
+.demoImg{
+    width: 200px;
+}
+
+.myWebBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.BackBtn , .gotoWebBtn{
+    width: 100px;
+    height: 50px;
+    border-radius: 15px;
+    border: 3px solid #999999;
+    color: #999999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.gotoWebBtn{
+    width: 150px;
+    
+}
+
+.BackBtn:hover , .gotoWebBtn:hover{
+    transition:background-color ease-in 0.2s ,color ease-in 0.2s;
+    background-color: #999999;
+    color: white;
+    cursor: pointer; 
+}
+
+
+#fansdessert , #mycalc ,#fuji{
+    display: none;
+}
+
+#footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #444444;
+    color: white;
+    height: 100px;
+    font-size: 14px;
+}

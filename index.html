@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="./css/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/slick-theme.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/cwtexyen.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script charset="utf-8" language="javascript" type="text/javascript" src="https://image.momoshop.com.tw/ecm/js/jquery-1.12.4.js?t=20200511001"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.6.0.slim.js" integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY=" crossorigin="anonymous"></script> -->
+</head>
+<body>
+    <div id="navbar">
+        <p id="nav_about">關於</p>
+        <p id="nav_skill">技術</p>
+        <p id="nav_myWeb">作品</p>
+    </div>
+    <div id="navbarBox"></div>
+    <div id="header">
+        <img src="./img/banner.jpg" alt="">
+    </div>
+    <div id="news">
+        <div id="newsL"">
+            <div>
+                <p>最新作品</p>
+                <p>News</p>
+            </div>
+        </div>
+        <div id="newsR">
+            <p>Fan's dessert 官方網站</p>
+        </div>
+    </div>
+    <!-- <div class="line"></div> -->
+    <div id="target_about">
+        <div>
+            <p class="sectionTitle">個人前端經歷</p>
+        </div>
+        <table>
+            <tr>
+                <td>痞客邦部落格 樣式撰寫</td>
+                <td>2014 ~ 迄今</td>
+            </tr>
+            <tr>
+                <td>資策會數位教育研究所 前端工程師就業養成班 培訓</td>
+                <td>2021/05/20 ~ 2021/10/15</td>
+            </tr>
+            <tr>
+                <td>資策會數位教育研究所 前端工程師就業養成班 專題(團體製作) 組長</td>
+                <td>2021/09/01 ~ 2021/10/15</td>
+            </tr>
+        </table>
+    </div>
+    <div id="target_skill">
+        <div>
+            <p class="sectionTitle">使用技術</p>
+        </div>
+        <div>
+            <table>
+                <tr>
+                    <td>前端技術</td>
+                    <td>後端技術</td>
+                    <td>資料庫</td>
+                    <td>UI / UX</td>
+                </tr>
+                <tr>
+                    <td>HTML</td>
+                    <td>Node.js</td>
+                    <td>MySQL</td>
+                    <td>Photoshop</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td> </td>
+                    <td></td>
+                    <td>Illustrator</td>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td> </td>
+                    <td></td>
+                    <td>Xd</td>
+                </tr>
+                <tr>
+                    <td>jQuery</td>
+                    <td> </td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Bootstrap</td>
+                    <td> </td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>React</td>
+                    <td> </td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div id="target_myWeb">
+        <div>
+            <p class="sectionTitle">前端作品</p>
+        </div>
+        <div id="selectNav">
+            <div class="myWebList">
+                <div class="myWebList">
+                    <img id="list_img_fansdessert" src="./img/dessert-sq.jpg" alt="">
+                </div>
+                <div class="myWebListR">
+                    <p id="list_fansdessert" class="myWebListRTitle">Fan's dessert 手作甜點</p>
+                    <div class="selectNavSkillList">
+                        <p class="html skillList">HTML</p>
+                        <p class="css skillList">CSS</p>
+                        <p class="jQuery skillList">jQuery</p>
+                        <p class="Photoshop skillList">Photoshop</p>
+                        <p class="Photoshop skillList">Lightroom</p>
+                    </div>
+                </div>
+            </div>
+            <div class="myWebList">
+                <div class="myWebList">
+                    <img id="list_img_mycalc" src="./img/mycalc-sq.jpg" alt="">
+                </div>
+                <div class="myWebListR">
+                    <p id="list_mycalc" class="myWebListRTitle">宏達の理財計算機</p>
+                    <div class="selectNavSkillList">
+                        <p class="html skillList">HTML</p>
+                        <p class="css skillList">CSS</p>
+                        <p class="jQuery skillList">jQuery</p>
+                        <p class="Photoshop skillList">React</p>
+                        <p class="Photoshop skillList">Bootstrap</p>
+                    </div>
+                </div>
+            </div>
+            <div class="myWebList">
+                <div class="myWebList">
+                    <img id="list_img_fuji" src="./img/fuji-sq.jpg" alt="">
+                </div>
+                <div class="myWebListR">
+                    <p id="list_fuji" class="myWebListRTitle">富士登山 Go</p>
+                    <div class="selectNavSkillList">
+                        <p class="html skillList">HTML</p>
+                        <p class="css skillList">CSS</p>
+                        <p class="jQuery skillList">JavaScript</p>
+                        <p class="jQuery skillList">jQuery</p>
+                        <p class="Photoshop skillList">Photoshop</p>
+                        <p class="Photoshop skillList">Illustrator</p>
+                        <p class="Photoshop skillList">Xd</p>
+                        <p class="Photoshop skillList">Bootstrap</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="fansdessert" class="myWebBox">
+            <div class="myWeb">
+                <div class="myWebL">
+                    <div class="myWebInfo">
+                        <p class="infoTitle">Fan's dessert</p>
+                    </div>
+                    <div class="myWebInfo">
+                        <p>Info：</p>
+                        <p class="infoTxt">手作甜點的官方網站。</p>
+                    </div>
+                    <div class="myWebSkillBox">
+                        <p>Skill：</p>
+                        <div class="myWebSkill">
+                            <p class="html skill">HTML</p>
+                            <p class="css skill">CSS</p>
+                            <p class="jQuery skill">jQuery</p>
+                            <!-- <p class="Photoshop skill">Photoshop</p> -->
+                        </div>
+                        <div class="myWebSkill">
+                            <p class="Photoshop skill">Photoshop</p>
+                            <p class="Photoshop skill">Lightroom</p>
+                        </div>
+                        <p>Plugin：</p>
+                        <div class="myWebSkill">
+                            <p class="plugin skill">Slick</p>
+                            <p class="plugin skill">AOS</p>
+                        </div>
+                        <div class="gotoWeb">
+                            <a href="https://smahonda.github.io/fans-dessert/" target="block" class="gotoWebBtn">前往網頁</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="myWebR"> 
+                    <img src="./img/dessert-iphone.jpg" alt="">
+                </div>
+            </div>
+            <div class="BackBtn">Back</div>
+        </div>
+        <div id="mycalc" class="myWebBox">
+            <div class="myWeb">
+                <div class="myWebL">
+                    <div class="myWebInfo">
+                        <p class="infoTitle">宏達の理財計算機</p>
+                    </div>
+                    <div class="myWebInfo">
+                        <p>Info：</p>
+                        <p class="infoTxt">計算複利</p>
+                    </div>
+                    <div class="myWebSkillBox">
+                        <p>Skill：</p>
+                        <div class="myWebSkill">
+                            <p class="html skill">HTML</p>
+                            <p class="css skill">CSS</p>
+                            <p class="jQuery skill">jQuery</p>
+                            <!-- <p class="Photoshop skill">Photoshop</p> -->
+                        </div>
+                        <div class="myWebSkill">
+                            <p class="Photoshop skill">React</p>
+                            <p class="Photoshop skill">Bootstrap</p>
+                        </div>
+                        <div class="gotoWeb">
+                            <a href="https://smahonda.github.io/mycalc/" target="block" class="gotoWebBtn">前往網頁</a>
+                        </div>
+                        <!-- <p>Plugin：</p>
+                            <div class="myWebSkill">
+                                <p class="plugin skill">Slick</p>
+                                <p class="plugin skill">AOS</p>
+                            </div> -->
+                        </div>
+                    </div>
+                    <div class="myWebR"> 
+                        <img src="./img/mycalc.jpg" alt="">
+                    </div>
+                </div>
+                <div class="BackBtn">Back</div>
+            </div>
+            <div id="fuji" class="myWebBox">
+                <div class="myWeb">
+                    <div class="myWebL">
+                        <div class="myWebInfo">
+                            <p class="infoTitle">富士登山 Go</p>
+                        </div>
+                        <div class="myWebInfo">
+                            <p>Info：</p>
+                            <p class="infoTxt">登富士登相關資訊</p>
+                        </div>
+                        <div class="myWebSkillBox">
+                            <p>Skill：</p>
+                            <div class="myWebSkill">
+                                <p class="html skill">HTML</p>
+                                <p class="css skill">CSS</p>
+                                <p class="jQuery skill">JavaScript</p>
+                                <p class="jQuery skill">jQuery</p>
+                                <p class="Photoshop skill">Photoshop</p>
+                                <p class="Photoshop skill">Illustrator</p>
+                                <p class="Photoshop skill">Xd</p>
+                                <p class="Photoshop skill">Bootstrap</p>
+                            </div>
+                            <p>Plugin：</p>
+                            <div class="myWebSkill">
+                                <p class="plugin skill">fullPage.js</p>
+                                <!-- <p class="plugin skill">AOS</p> -->
+                            </div>
+                            <div class="gotoWeb">
+                                <a href="https://smahonda.github.io/" target="block" class="gotoWebBtn">前往網頁</a>
+                            </div>
+                    </div>
+                </div>
+                <div class="myWebR"> 
+                    <img src="./img/fuji.jpg" alt="">
+                </div>
+            </div>
+            <div class="BackBtn">Back</div>
+        </div>
+    </div>
+    <div id="footer">
+        <p>Update : 2021 Oct 14</p>
+    </div>
+    <script   src="https://code.jquery.com/jquery-3.6.0.js"   integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="   crossorigin="anonymous"></script>
+    <!-- <script type="text/javascript" src="./javascript/slick.js"></script> -->
+    <script src="./javascript/javascript.js"></script>
+</body>
+</html>
