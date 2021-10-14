@@ -38,11 +38,20 @@ $('#list_fuji').click(function(){
     $('#fuji').css('display','flex')
     $('#selectNav').css('display','none')
 })
+$('#list_img_blog').click(function(){
+    $('#blog').css('display','flex')
+    $('#selectNav').css('display','none')
+})
+$('#list_blog').click(function(){
+    $('#blog').css('display','flex')
+    $('#selectNav').css('display','none')
+})
 
 $('.BackBtn').click(function(){
     $('#selectNav').css('display','flex')
     $('#fansdessert').css('display','none')
     $('#mycalc').css('display','none')
     $('#fuji').css('display','none')
+    $('#blog').css('display','none')
 
 })
