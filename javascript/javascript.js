@@ -43,5 +43,6 @@ $('.BackBtn').click(function(){
     $('#selectNav').css('display','flex')
     $('#fansdessert').css('display','none')
     $('#mycalc').css('display','none')
+    $('#fuji').css('display','none')
 
 })
